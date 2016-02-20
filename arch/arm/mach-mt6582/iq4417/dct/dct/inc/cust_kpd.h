@@ -73,14 +73,14 @@
 
 #define KPD_PWRKEY_GPIO_DIN  0
 
-#define KPD_DL_KEY1  1    /* KEY_VOLUMEUP */
-#define KPD_DL_KEY2  10    /* KEY_VOLUMEDOWN */
+#define KPD_DL_KEY1  0    /* KEY_VOLUMEUP */
+#define KPD_DL_KEY2  1    /* KEY_VOLUMEDOWN */
 #define  KPD_DL_KEY3  8    /* KEY_POWER */
 /*****************************************************************/
 /*******************Uboot Customation***************************/
 /*****************************************************************/
-#define MT65XX_RECOVERY_KEY  1    /* KEY_VOLUMEUP */
-#define MT65XX_FACTORY_KEY  10    /* KEY_VOLUMEDOWN */
+#define MT65XX_RECOVERY_KEY  0    /* KEY_VOLUMEUP */
+#define MT65XX_FACTORY_KEY  1    /* KEY_VOLUMEDOWN */
 /*****************************************************************/
 /*******************factory Customation***************************/
 /*****************************************************************/
